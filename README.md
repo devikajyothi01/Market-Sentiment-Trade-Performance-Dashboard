@@ -15,14 +15,23 @@ Build an interactive dashboard for decision-making
 The dataset contains trade-level information including:
 
 Coin – Asset traded (e.g., BTC, ETH) 
+
 Execution Price – Entry price of trade 
+
 Size (USD / Tokens) – Trade volume
+
 Side – Buy or Sell 
+
 Closed PnL – Profit or loss from trade
+
 win – TRUE/FALSE outcome
+
 Classification – Market sentiment / trade category
+
 risk_group – Risk level of trade
+
 Timestamp / Date – Trade time
+
 Trade ID / Order ID – Unique identifiers
 
 ## 🧹 Data Processing
