@@ -86,3 +86,8 @@ Excel / CSV Dataset
 ## 🚀 Conclusion
 
 This project demonstrates how data visualization can be used to analyze trading performance and market behavior. It provides actionable insights for improving trading strategies and understanding risk vs reward patterns.
+
+## Note:
+Due to file size limitations, a sample dataset is provided. 
+The full dataset can be shared upon request.
+Full Dataset:https://drive.google.com/drive/folders/113gxAoZP2c4RcKoz1B09xsiF3vdKKWfh?usp=sharing
