@@ -41,7 +41,7 @@ Created calculated measures using DAX
 Cleaned and structured dataset in Power BI
 Ensured correct formatting for KPIs and visuals
 
-📐 Key Measures (DAX)
+## 📐 Key Measures (DAX)
 
 Win Flag = IF('merged'[win] = TRUE(), 1, 0)
 
@@ -53,7 +53,7 @@ Total Wins = SUM('merged'[Win Flag])
 
 Total Losses = COUNTROWS('merged') - SUM('merged'[Win Flag])
 
-📊 Dashboard Visuals
+## 📊 Dashboard Visuals
 
 The Power BI dashboard includes:
 
@@ -69,7 +69,7 @@ The Power BI dashboard includes:
 
 📊 Bar Chart (Risk Group Analysis)
 
-🔍 Key Insights
+## 🔍 Key Insights
 
 Win Rate helps evaluate trading efficiency
 Certain coins show higher profitability than others
@@ -77,12 +77,12 @@ Classification impacts trading success significantly
 Risk groups influence volatility and returns
 Scatter plot reveals trade efficiency patterns across price levels
 
-📌 Tools Used
+## 📌 Tools Used
 
 Power BI
 DAX (Data Analysis Expressions)
 Excel / CSV Dataset
 
-🚀 Conclusion
+## 🚀 Conclusion
 
 This project demonstrates how data visualization can be used to analyze trading performance and market behavior. It provides actionable insights for improving trading strategies and understanding risk vs reward patterns.
