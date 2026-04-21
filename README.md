@@ -49,10 +49,15 @@ Total Losses = COUNTROWS('merged') - SUM('merged'[Win Flag])
 The Power BI dashboard includes:
 
 📊 KPI Cards (Win Rate, Trades, Wins, Losses)
+
 🍩 Donut Chart (Win vs Loss Distribution)
+
 🍩 Pie Chart (Classification Breakdown)
+
 📊 Column Charts (Coin vs Performance)
+
 📈 Line Chart (Trend Analysis over time)
+
 📊 Bar Chart (Risk Group Analysis)
 
 🔍 Key Insights
