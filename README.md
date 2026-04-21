@@ -1,11 +1,9 @@
 # Market-Sentiment-Trade-Performance-Dashboard
-##🧠 Overview
-
+## 🧠 Overview
 This project is a Power BI dashboard that analyzes trading performance using market data. It focuses on understanding profitability, risk, and market behavior using key metrics like Win Rate, Closed PnL, and Classification (sentiment).
-
 The dashboard helps visualize how different trading factors such as coin type, execution price, risk group, and classification impact overall performance.
 
-##🎯 Objectives
+## 🎯 Objectives
 
 Analyze overall trading performance using Win Rate and PnL
 Identify profitable coins and trading patterns
@@ -13,7 +11,7 @@ Study impact of market classification (sentiment)
 Evaluate risk levels and their effect on returns
 Build an interactive dashboard for decision-making
 
-📂 Dataset Description
+## 📂 Dataset Description
 
 The dataset contains trade-level information including:
 
@@ -28,7 +26,7 @@ risk_group – Risk level of trade
 Timestamp / Date – Trade time
 Trade ID / Order ID – Unique identifiers
 
-🧹 Data Processing
+## 🧹 Data Processing
 
 Converted Boolean win (TRUE/FALSE) into numeric Win Flag (1/0)
 Created calculated measures using DAX
