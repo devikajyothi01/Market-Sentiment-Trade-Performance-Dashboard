@@ -12,13 +12,12 @@ Evaluate risk levels and their effect on returns
 Build an interactive dashboard for decision-making
 
 ## 📂 Dataset Description
-
 The dataset contains trade-level information including:
 
-Coin – Asset traded (e.g., BTC, ETH)
-Execution Price – Entry price of trade
+Coin – Asset traded (e.g., BTC, ETH) 
+Execution Price – Entry price of trade 
 Size (USD / Tokens) – Trade volume
-Side – Buy or Sell
+Side – Buy or Sell 
 Closed PnL – Profit or loss from trade
 win – TRUE/FALSE outcome
 Classification – Market sentiment / trade category
