@@ -6,6 +6,7 @@ This project is a Power BI dashboard that analyzes trading performance using mar
 The dashboard helps visualize how different trading factors such as coin type, execution price, risk group, and classification impact overall performance.
 
 🎯 Objectives
+
 Analyze overall trading performance using Win Rate and PnL
 Identify profitable coins and trading patterns
 Study impact of market classification (sentiment)
@@ -28,12 +29,14 @@ Timestamp / Date – Trade time
 Trade ID / Order ID – Unique identifiers
 
 🧹 Data Processing
+
 Converted Boolean win (TRUE/FALSE) into numeric Win Flag (1/0)
 Created calculated measures using DAX
 Cleaned and structured dataset in Power BI
 Ensured correct formatting for KPIs and visuals
 
 📐 Key Measures (DAX)
+
 Win Flag = IF('merged'[win] = TRUE(), 1, 0)
 
 Win Rate = DIVIDE(SUM('merged'[Win Flag]), COUNTROWS('merged'))
@@ -61,6 +64,7 @@ The Power BI dashboard includes:
 📊 Bar Chart (Risk Group Analysis)
 
 🔍 Key Insights
+
 Win Rate helps evaluate trading efficiency
 Certain coins show higher profitability than others
 Classification impacts trading success significantly
@@ -68,6 +72,7 @@ Risk groups influence volatility and returns
 Scatter plot reveals trade efficiency patterns across price levels
 
 📌 Tools Used
+
 Power BI
 DAX (Data Analysis Expressions)
 Excel / CSV Dataset
